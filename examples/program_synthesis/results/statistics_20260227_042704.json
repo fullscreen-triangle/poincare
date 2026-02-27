@@ -1,0 +1,10 @@
+{
+  "total_tests": 7,
+  "correct_syntheses": 7,
+  "validated_programs": 7,
+  "accuracy": 1.0,
+  "validation_rate": 1.0,
+  "avg_total_time_ms": 0.2849783216203962,
+  "avg_observe_time_ms": 0.2849783216203962,
+  "avg_synthesis_time_ms": 0.0
+}

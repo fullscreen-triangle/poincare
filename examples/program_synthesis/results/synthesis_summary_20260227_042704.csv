@@ -1,0 +1,8 @@
+expected_program,synthesized_program,correct,examples_validated,num_examples,s_k,s_t,s_e,operation_type,total_time_ms
+sum,sum,True,True,4,0.05,0.15,0.2,aggregation,0.0
+product,product,True,True,4,0.1,0.15,0.3,aggregation,0.9968280792236328
+max,max,True,True,4,0.15,0.15,0.3,aggregation,0.0
+min,min,True,True,4,0.2,0.15,0.3,aggregation,0.0
+length,length,True,True,4,0.25,0.15,0.2,access,0.9980201721191406
+first,first,True,True,4,0.3,0.15,0.2,access,0.0
+last,last,True,True,4,0.4,0.15,0.2,access,0.0
