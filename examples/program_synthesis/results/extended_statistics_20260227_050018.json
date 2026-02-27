@@ -1,0 +1,19 @@
+{
+  "total_tests": 32,
+  "correct_syntheses": 29,
+  "validated_programs": 32,
+  "accuracy": 0.90625,
+  "validation_rate": 1.0,
+  "avg_total_time_ms": 0.18806010484695435,
+  "avg_distance": 0.04409879851220765,
+  "by_operation_type": {
+    "access": 0.3333333333333333,
+    "aggregation": 1.0,
+    "arithmetic": 1.0,
+    "composition": 1.0,
+    "conditional": 1.0,
+    "recursive": 0.6666666666666666,
+    "transformation": 1.0
+  },
+  "library_size": 48
+}

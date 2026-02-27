@@ -1,0 +1,1622 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-27T04:58:59.990637",
+    "framework": "Poincare Computing - Extended",
+    "method": "Backward Trajectory Completion",
+    "library_size": 48,
+    "operation_types": 8
+  },
+  "statistics": {
+    "total_tests": 32,
+    "correct_syntheses": 19,
+    "validated_programs": 22,
+    "accuracy": 0.59375,
+    "validation_rate": 0.6875,
+    "avg_total_time_ms": 0.2307295799255371,
+    "avg_distance": 0.1605771573303309,
+    "by_operation_type": {
+      "access": 0.0,
+      "aggregation": 0.7142857142857143,
+      "arithmetic": 0.75,
+      "composition": 0.5,
+      "conditional": 0.5,
+      "recursive": 0.0,
+      "transformation": 1.0
+    },
+    "library_size": 48
+  },
+  "results": [
+    {
+      "timestamp": "2026-02-27T04:58:59.981378",
+      "expected_program": "first",
+      "synthesized_program": "min",
+      "correct": false,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.04,
+        "s_t": 0.1,
+        "s_e": 0.18
+      },
+      "expected_coords": {
+        "s_k": 0.16,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.12369316876852982,
+      "operation_type": "access",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 1
+        },
+        {
+          "input": [
+            10,
+            20
+          ],
+          "output": 10
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": 5
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.982394",
+      "expected_program": "last",
+      "synthesized_program": "max",
+      "correct": false,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.03,
+        "s_t": 0.1,
+        "s_e": 0.18
+      },
+      "expected_coords": {
+        "s_k": 0.17,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.14317821063276354,
+      "operation_type": "access",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 3
+        },
+        {
+          "input": [
+            10,
+            20
+          ],
+          "output": 20
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": 5
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.982394",
+      "expected_program": "second",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.18,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.36728735344413915,
+      "operation_type": "access",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 2
+        },
+        {
+          "input": [
+            10,
+            20,
+            30
+          ],
+          "output": 20
+        },
+        {
+          "input": [
+            5,
+            6
+          ],
+          "output": 6
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.983411",
+      "expected_program": "sum",
+      "synthesized_program": "sum",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.01,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "expected_coords": {
+        "s_k": 0.01,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.0,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 1.016855239868164,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 1.016855239868164,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 6
+        },
+        {
+          "input": [
+            4,
+            5,
+            6
+          ],
+          "output": 15
+        },
+        {
+          "input": [
+            10
+          ],
+          "output": 10
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.983411",
+      "expected_program": "product",
+      "synthesized_program": "product",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.02,
+        "s_t": 0.1,
+        "s_e": 0.2
+      },
+      "expected_coords": {
+        "s_k": 0.02,
+        "s_t": 0.1,
+        "s_e": 0.2
+      },
+      "distance": 0.0,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            2,
+            3
+          ],
+          "output": 6
+        },
+        {
+          "input": [
+            4,
+            5
+          ],
+          "output": 20
+        },
+        {
+          "input": [
+            2,
+            2,
+            2
+          ],
+          "output": 8
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.983411",
+      "expected_program": "max",
+      "synthesized_program": "max",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.03,
+        "s_t": 0.1,
+        "s_e": 0.18
+      },
+      "expected_coords": {
+        "s_k": 0.03,
+        "s_t": 0.1,
+        "s_e": 0.18
+      },
+      "distance": 0.0,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            5,
+            3
+          ],
+          "output": 5
+        },
+        {
+          "input": [
+            2,
+            9,
+            4
+          ],
+          "output": 9
+        },
+        {
+          "input": [
+            10,
+            1
+          ],
+          "output": 10
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.984427",
+      "expected_program": "min",
+      "synthesized_program": "min",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.04,
+        "s_t": 0.1,
+        "s_e": 0.18
+      },
+      "expected_coords": {
+        "s_k": 0.04,
+        "s_t": 0.1,
+        "s_e": 0.18
+      },
+      "distance": 0.0,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 1.0151863098144531,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 1.0151863098144531,
+      "examples": [
+        {
+          "input": [
+            1,
+            5,
+            3
+          ],
+          "output": 1
+        },
+        {
+          "input": [
+            2,
+            9,
+            4
+          ],
+          "output": 2
+        },
+        {
+          "input": [
+            10,
+            1
+          ],
+          "output": 1
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.984427",
+      "expected_program": "mean",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.05,
+        "s_t": 0.15,
+        "s_e": 0.25
+      },
+      "distance": 0.45552167895721496,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 2.0
+        },
+        {
+          "input": [
+            4,
+            6
+          ],
+          "output": 5.0
+        },
+        {
+          "input": [
+            10
+          ],
+          "output": 10.0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.985442",
+      "expected_program": "length",
+      "synthesized_program": "length",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.06,
+        "s_t": 0.1,
+        "s_e": 0.1
+      },
+      "expected_coords": {
+        "s_k": 0.06,
+        "s_t": 0.1,
+        "s_e": 0.1
+      },
+      "distance": 0.0,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 1.0159015655517578,
+      "total_time_ms": 1.0159015655517578,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 3
+        },
+        {
+          "input": [
+            4
+          ],
+          "output": 1
+        },
+        {
+          "input": [],
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.985442",
+      "expected_program": "range",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.1,
+        "s_t": 0.25,
+        "s_e": 0.35
+      },
+      "distance": 0.4062019202317981,
+      "operation_type": "aggregation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            5,
+            3
+          ],
+          "output": 4
+        },
+        {
+          "input": [
+            10,
+            2,
+            8
+          ],
+          "output": 8
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.985442",
+      "expected_program": "add",
+      "synthesized_program": "add",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.51,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "expected_coords": {
+        "s_k": 0.51,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.0,
+      "operation_type": "arithmetic",
+      "arity": 2,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            3,
+            5
+          ],
+          "output": 8
+        },
+        {
+          "input": [
+            10,
+            20
+          ],
+          "output": 30
+        },
+        {
+          "input": [
+            0,
+            7
+          ],
+          "output": 7
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.986457",
+      "expected_program": "subtract",
+      "synthesized_program": "subtract",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.52,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "expected_coords": {
+        "s_k": 0.52,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.0,
+      "operation_type": "arithmetic",
+      "arity": 2,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 1.01470947265625,
+      "total_time_ms": 1.01470947265625,
+      "examples": [
+        {
+          "input": [
+            10,
+            3
+          ],
+          "output": 7
+        },
+        {
+          "input": [
+            20,
+            15
+          ],
+          "output": 5
+        },
+        {
+          "input": [
+            7,
+            7
+          ],
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.986457",
+      "expected_program": "multiply",
+      "synthesized_program": "multiply",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.53,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "expected_coords": {
+        "s_k": 0.53,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "distance": 0.0,
+      "operation_type": "arithmetic",
+      "arity": 2,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            3,
+            4
+          ],
+          "output": 12
+        },
+        {
+          "input": [
+            5,
+            6
+          ],
+          "output": 30
+        },
+        {
+          "input": [
+            2,
+            0
+          ],
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.986457",
+      "expected_program": "divide",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.54,
+        "s_t": 0.1,
+        "s_e": 0.2
+      },
+      "distance": 0.14696938456699069,
+      "operation_type": "arithmetic",
+      "arity": 2,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            10,
+            2
+          ],
+          "output": 5.0
+        },
+        {
+          "input": [
+            20,
+            4
+          ],
+          "output": 5.0
+        },
+        {
+          "input": [
+            7,
+            2
+          ],
+          "output": 3.5
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.986457",
+      "expected_program": "sum_of_squares",
+      "synthesized_program": "sum_of_squares",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.71,
+        "s_t": 0.35,
+        "s_e": 0.45
+      },
+      "expected_coords": {
+        "s_k": 0.71,
+        "s_t": 0.35,
+        "s_e": 0.45
+      },
+      "distance": 0.0,
+      "operation_type": "composition",
+      "arity": 1,
+      "composition_depth": 2,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 14
+        },
+        {
+          "input": [
+            2,
+            3
+          ],
+          "output": 13
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": 25
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.987473",
+      "expected_program": "sum_of_doubled",
+      "synthesized_program": "sum_of_doubled",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.72,
+        "s_t": 0.35,
+        "s_e": 0.4
+      },
+      "expected_coords": {
+        "s_k": 0.72,
+        "s_t": 0.35,
+        "s_e": 0.4
+      },
+      "distance": 0.0,
+      "operation_type": "composition",
+      "arity": 1,
+      "composition_depth": 2,
+      "observe_time_ms": 1.0154247283935547,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 1.0154247283935547,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 12
+        },
+        {
+          "input": [
+            5,
+            10
+          ],
+          "output": 30
+        },
+        {
+          "input": [
+            3
+          ],
+          "output": 6
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.987473",
+      "expected_program": "sum_positive",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.73,
+        "s_t": 0.35,
+        "s_e": 0.45
+      },
+      "distance": 0.3128897569432403,
+      "operation_type": "composition",
+      "arity": 1,
+      "composition_depth": 2,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            -2,
+            3,
+            -4,
+            5
+          ],
+          "output": 9
+        },
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 6
+        },
+        {
+          "input": [
+            -1,
+            -2
+          ],
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.988489",
+      "expected_program": "sum_even",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.74,
+        "s_t": 0.35,
+        "s_e": 0.45
+      },
+      "distance": 0.32031234756093935,
+      "operation_type": "composition",
+      "arity": 1,
+      "composition_depth": 2,
+      "observe_time_ms": 1.0161399841308594,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 1.0161399841308594,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "output": 6
+        },
+        {
+          "input": [
+            2,
+            4,
+            6
+          ],
+          "output": 12
+        },
+        {
+          "input": [
+            1,
+            3,
+            5
+          ],
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.988489",
+      "expected_program": "max_of_two",
+      "synthesized_program": "max_of_two",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.61,
+        "s_t": 0.15,
+        "s_e": 0.25
+      },
+      "expected_coords": {
+        "s_k": 0.61,
+        "s_t": 0.15,
+        "s_e": 0.25
+      },
+      "distance": 0.0,
+      "operation_type": "conditional",
+      "arity": 2,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            5,
+            3
+          ],
+          "output": 5
+        },
+        {
+          "input": [
+            10,
+            20
+          ],
+          "output": 20
+        },
+        {
+          "input": [
+            7,
+            7
+          ],
+          "output": 7
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.988489",
+      "expected_program": "min_of_two",
+      "synthesized_program": "min_of_two",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.62,
+        "s_t": 0.15,
+        "s_e": 0.25
+      },
+      "expected_coords": {
+        "s_k": 0.62,
+        "s_t": 0.15,
+        "s_e": 0.25
+      },
+      "distance": 0.0,
+      "operation_type": "conditional",
+      "arity": 2,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            5,
+            3
+          ],
+          "output": 3
+        },
+        {
+          "input": [
+            10,
+            20
+          ],
+          "output": 10
+        },
+        {
+          "input": [
+            7,
+            7
+          ],
+          "output": 7
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.989348",
+      "expected_program": "abs_single",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.63,
+        "s_t": 0.15,
+        "s_e": 0.2
+      },
+      "distance": 0.17146428199482247,
+      "operation_type": "conditional",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": -5,
+          "output": 5
+        },
+        {
+          "input": 3,
+          "output": 3
+        },
+        {
+          "input": 0,
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.989348",
+      "expected_program": "sign",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.64,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "distance": 0.14,
+      "operation_type": "conditional",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": 5,
+          "output": 1
+        },
+        {
+          "input": -3,
+          "output": -1
+        },
+        {
+          "input": 0,
+          "output": 0
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.989348",
+      "expected_program": "factorial",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 4,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.86,
+        "s_t": 0.6,
+        "s_e": 0.7
+      },
+      "distance": 0.6705221845696083,
+      "operation_type": "recursive",
+      "arity": 1,
+      "composition_depth": 3,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": 0,
+          "output": 1
+        },
+        {
+          "input": 1,
+          "output": 1
+        },
+        {
+          "input": 5,
+          "output": 120
+        },
+        {
+          "input": 6,
+          "output": 720
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.989348",
+      "expected_program": "fibonacci",
+      "synthesized_program": "sort_desc",
+      "correct": false,
+      "examples_validated": false,
+      "num_examples": 4,
+      "s_coords": {
+        "s_k": 0.5,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.87,
+        "s_t": 0.65,
+        "s_e": 0.75
+      },
+      "distance": 0.7361385739111896,
+      "operation_type": "recursive",
+      "arity": 1,
+      "composition_depth": 4,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": 0,
+          "output": 0
+        },
+        {
+          "input": 1,
+          "output": 1
+        },
+        {
+          "input": 5,
+          "output": 5
+        },
+        {
+          "input": 7,
+          "output": 13
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "sum_recursive",
+      "synthesized_program": "sum",
+      "correct": false,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.01,
+        "s_t": 0.1,
+        "s_e": 0.15
+      },
+      "expected_coords": {
+        "s_k": 0.88,
+        "s_t": 0.6,
+        "s_e": 0.7
+      },
+      "distance": 1.1442901729893515,
+      "operation_type": "recursive",
+      "arity": 1,
+      "composition_depth": 3,
+      "observe_time_ms": 1.2891292572021484,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 1.2891292572021484,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": 6
+        },
+        {
+          "input": [
+            5,
+            10
+          ],
+          "output": 15
+        },
+        {
+          "input": [
+            1
+          ],
+          "output": 1
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "double_all",
+      "synthesized_program": "double_all",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.31,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.31,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": [
+            10
+          ]
+        },
+        {
+          "input": [
+            0,
+            -1
+          ],
+          "output": [
+            0,
+            -2
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "square_all",
+      "synthesized_program": "square_all",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.32,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.32,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": [
+            1,
+            4,
+            9
+          ]
+        },
+        {
+          "input": [
+            4
+          ],
+          "output": [
+            16
+          ]
+        },
+        {
+          "input": [
+            -2,
+            3
+          ],
+          "output": [
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "negate_all",
+      "synthesized_program": "negate_all",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.33,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "expected_coords": {
+        "s_k": 0.33,
+        "s_t": 0.2,
+        "s_e": 0.3
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": [
+            -1,
+            -2,
+            -3
+          ]
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": [
+            -5
+          ]
+        },
+        {
+          "input": [
+            -1,
+            2
+          ],
+          "output": [
+            1,
+            -2
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "filter_positive",
+      "synthesized_program": "filter_positive",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.36,
+        "s_t": 0.25,
+        "s_e": 0.35
+      },
+      "expected_coords": {
+        "s_k": 0.36,
+        "s_t": 0.25,
+        "s_e": 0.35
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            -2,
+            3,
+            -4
+          ],
+          "output": [
+            1,
+            3
+          ]
+        },
+        {
+          "input": [
+            5,
+            6,
+            7
+          ],
+          "output": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "input": [
+            -1,
+            -2
+          ],
+          "output": []
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "filter_even",
+      "synthesized_program": "filter_even",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.38,
+        "s_t": 0.25,
+        "s_e": 0.35
+      },
+      "expected_coords": {
+        "s_k": 0.38,
+        "s_t": 0.25,
+        "s_e": 0.35
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "output": [
+            2,
+            4
+          ]
+        },
+        {
+          "input": [
+            1,
+            3,
+            5
+          ],
+          "output": []
+        },
+        {
+          "input": [
+            2,
+            4,
+            6
+          ],
+          "output": [
+            2,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "reverse",
+      "synthesized_program": "reverse",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.4,
+        "s_t": 0.15,
+        "s_e": 0.2
+      },
+      "expected_coords": {
+        "s_k": 0.4,
+        "s_t": 0.15,
+        "s_e": 0.2
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "output": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "input": [
+            5
+          ],
+          "output": [
+            5
+          ]
+        },
+        {
+          "input": [
+            1,
+            2
+          ],
+          "output": [
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-02-27T04:58:59.990637",
+      "expected_program": "sort_asc",
+      "synthesized_program": "sort_asc",
+      "correct": true,
+      "examples_validated": true,
+      "num_examples": 3,
+      "s_coords": {
+        "s_k": 0.41,
+        "s_t": 0.2,
+        "s_e": 0.25
+      },
+      "expected_coords": {
+        "s_k": 0.41,
+        "s_t": 0.2,
+        "s_e": 0.25
+      },
+      "distance": 0.0,
+      "operation_type": "transformation",
+      "arity": 1,
+      "composition_depth": 1,
+      "observe_time_ms": 0.0,
+      "synthesis_time_ms": 0.0,
+      "total_time_ms": 0.0,
+      "examples": [
+        {
+          "input": [
+            3,
+            1,
+            2
+          ],
+          "output": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": [
+            5,
+            2,
+            8,
+            1
+          ],
+          "output": [
+            1,
+            2,
+            5,
+            8
+          ]
+        },
+        {
+          "input": [
+            1
+          ],
+          "output": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}
