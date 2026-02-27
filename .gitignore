@@ -1,0 +1,120 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.pdf
+!docs/**/*.pdf
+!publication/**/*.pdf
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Project specific
+.cache/
+.benchmarks/
+experiments/scratch/
+*.prof
+*.profdata
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Data files (avoid committing large datasets)
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.csv
+*.tsv
+!examples/**/*.csv
+
+# Binaries
+*.exe
+*.dll
+*.dylib
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig

@@ -1,0 +1,40 @@
+{
+  "original_image": "../maxwell/public/1585.jpg",
+  "original_shape": [
+    1024,
+    1024,
+    3
+  ],
+  "scenarios": {
+    "wavelength_shifting": {
+      "source_nm": 550,
+      "targets_nm": [
+        650,
+        450
+      ],
+      "advantage": "No re-imaging required"
+    },
+    "illumination_angle": {
+      "source": "bright-field (0\u00b0)",
+      "target": "dark-field (45\u00b0)",
+      "advantage": "No reconfiguration required"
+    },
+    "fluorescence_excitation": {
+      "source_nm": 488,
+      "target_nm": 561,
+      "advantage": "No laser change, no photobleaching"
+    },
+    "phase_contrast": {
+      "source": "amplitude (front face)",
+      "target": "phase (back face)",
+      "advantage": "Access hidden information via dual-membrane"
+    }
+  },
+  "traditional_vs_virtual": {
+    "traditional_captures_required": 7,
+    "virtual_captures_required": 1,
+    "savings": "6 captures (85.7%)",
+    "traditional_time_hours": "> 4",
+    "virtual_time_seconds": "< 30"
+  }
+}

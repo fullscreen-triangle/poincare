@@ -1,0 +1,100 @@
+{
+  "image_path": "public/1585.jpg",
+  "image_shape": [
+    1024,
+    1024,
+    3
+  ],
+  "atmospheric_conditions": {
+    "temperature": 310.15,
+    "pressure": 101325,
+    "humidity": 0.8
+  },
+  "depth_statistics": {
+    "mean": 1.6097180843353271,
+    "std": 0.3539252281188965,
+    "min": 0.0026143791619688272,
+    "max": 2.0
+  },
+  "modality_statistics": {
+    "Fluorescence": {
+      "mean": 0.0008957181125879288,
+      "std": 9.313225746154785e-10,
+      "range": [
+        0.0008957190439105034,
+        0.0008957190439105034
+      ],
+      "time_s": 8.00468373298645
+    },
+    "IR_Spectroscopy": {
+      "mean": 0.07471755146980286,
+      "std": 8.940696716308594e-08,
+      "range": [
+        0.07471764087677002,
+        0.07471764087677002
+      ],
+      "time_s": 7.397267580032349
+    },
+    "Raman_Spectroscopy": {
+      "mean": 0.926292359828949,
+      "std": 2.384185791015625e-07,
+      "range": [
+        0.9262921214103699,
+        0.9262921214103699
+      ],
+      "time_s": 6.723456621170044
+    },
+    "Mass_Spectrometry": {
+      "mean": 28.4233341217041,
+      "std": 1.71661376953125e-05,
+      "range": [
+        28.423316955566406,
+        28.423316955566406
+      ],
+      "time_s": 5.258867263793945
+    },
+    "Temperature": {
+      "mean": 310.1499328613281,
+      "std": 6.103515625e-05,
+      "range": [
+        310.1499938964844,
+        310.1499938964844
+      ],
+      "time_s": 29.295538187026978
+    },
+    "Pressure": {
+      "mean": 101325.0,
+      "std": 0.0,
+      "range": [
+        101325.0,
+        101325.0
+      ],
+      "time_s": 23.903044939041138
+    },
+    "Humidity": {
+      "mean": 0.800000786781311,
+      "std": 7.748603820800781e-07,
+      "range": [
+        0.800000011920929,
+        0.800000011920929
+      ],
+      "time_s": 15.80056357383728
+    },
+    "Phase_Interference": {
+      "mean": 1.0,
+      "std": 0.0,
+      "range": [
+        1.0,
+        1.0
+      ],
+      "time_s": 32.69117569923401
+    }
+  },
+  "total_time_s": 486.8609254360199,
+  "revolutionary_advantages": {
+    "depth_extraction": "No stereo or depth sensors required",
+    "multi_modal": "8 modalities on 1 sample (vs 8 samples traditionally)",
+    "zero_backaction": "Sample completely unchanged after analysis",
+    "simultaneous": "All modalities accessed in parallel via categorical queries"
+  }
+}

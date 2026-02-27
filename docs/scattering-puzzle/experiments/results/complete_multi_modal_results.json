@@ -1,0 +1,293 @@
+{
+  "aggregate_statistics": {
+    "total_images": 3,
+    "successful": 3,
+    "failed": 0,
+    "success_rate": 1.0,
+    "total_modalities": 8,
+    "total_measurements": 24,
+    "traditional_samples_required": 24,
+    "our_samples_required": 3,
+    "sample_savings": 21,
+    "average_time_per_image": 335.30777915318805
+  },
+  "individual_results": [
+    {
+      "success": true,
+      "image_name": "10954.jpg",
+      "image_shape": [
+        1272,
+        908,
+        3
+      ],
+      "total_time_s": 357.42048692703247,
+      "n_modalities": 8,
+      "atmospheric_conditions": {
+        "temperature": 310.15,
+        "pressure": 101325,
+        "humidity": 0.8
+      },
+      "detector_statistics": {
+        "Thermometer": {
+          "mean": 310.1498107910156,
+          "std": 0.00018310546875,
+          "min": 310.1499938964844,
+          "max": 310.1499938964844,
+          "unit": "Temperature (K)",
+          "measurement_time_s": 16.463832139968872
+        },
+        "Barometer": {
+          "mean": 101325.0,
+          "std": 0.0,
+          "min": 101325.0,
+          "max": 101325.0,
+          "unit": "Pressure (Pa)",
+          "measurement_time_s": 18.26542043685913
+        },
+        "Hygrometer": {
+          "mean": 0.8000009655952454,
+          "std": 9.5367431640625e-07,
+          "min": 0.800000011920929,
+          "max": 0.800000011920929,
+          "unit": "Humidity (%)",
+          "measurement_time_s": 8.915144205093384
+        },
+        "IR_Spectrometer": {
+          "mean": 0.07471755146980286,
+          "std": 8.940696716308594e-08,
+          "min": 0.07471764087677002,
+          "max": 0.07471764087677002,
+          "unit": "IR Absorption",
+          "measurement_time_s": 4.437455654144287
+        },
+        "Raman_Spectrometer": {
+          "mean": 0.9262923002243042,
+          "std": 1.7881393432617188e-07,
+          "min": 0.9262921214103699,
+          "max": 0.9262921214103699,
+          "unit": "Raman Signal",
+          "measurement_time_s": 4.577299356460571
+        },
+        "Mass_Spectrometer": {
+          "mean": 28.423336029052734,
+          "std": 1.9073486328125e-05,
+          "min": 28.423316955566406,
+          "max": 28.423316955566406,
+          "unit": "Mass (amu)",
+          "measurement_time_s": 4.817758083343506
+        },
+        "Photodiode": {
+          "mean": 0.000895717937964946,
+          "std": 1.1059455573558807e-09,
+          "min": 0.0008957190439105034,
+          "max": 0.0008957190439105034,
+          "unit": "Light Intensity",
+          "measurement_time_s": 4.270222187042236
+        },
+        "Interferometer": {
+          "mean": 1.0,
+          "std": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "unit": "Phase (rad)",
+          "measurement_time_s": 35.13983201980591
+        }
+      },
+      "revolutionary_advantage": {
+        "traditional_samples_required": 8,
+        "our_samples_required": 1,
+        "sample_savings": 7,
+        "zero_backaction": true,
+        "simultaneous_analysis": true
+      }
+    },
+    {
+      "success": true,
+      "image_name": "10954.jpg",
+      "image_shape": [
+        1272,
+        908,
+        3
+      ],
+      "total_time_s": 353.9150900840759,
+      "n_modalities": 8,
+      "atmospheric_conditions": {
+        "temperature": 310.15,
+        "pressure": 101325,
+        "humidity": 0.8
+      },
+      "detector_statistics": {
+        "Thermometer": {
+          "mean": 310.1498107910156,
+          "std": 0.00018310546875,
+          "min": 310.1499938964844,
+          "max": 310.1499938964844,
+          "unit": "Temperature (K)",
+          "measurement_time_s": 18.215588331222534
+        },
+        "Barometer": {
+          "mean": 101325.0,
+          "std": 0.0,
+          "min": 101325.0,
+          "max": 101325.0,
+          "unit": "Pressure (Pa)",
+          "measurement_time_s": 18.407900094985962
+        },
+        "Hygrometer": {
+          "mean": 0.8000009655952454,
+          "std": 9.5367431640625e-07,
+          "min": 0.800000011920929,
+          "max": 0.800000011920929,
+          "unit": "Humidity (%)",
+          "measurement_time_s": 10.111749172210693
+        },
+        "IR_Spectrometer": {
+          "mean": 0.07471755146980286,
+          "std": 8.940696716308594e-08,
+          "min": 0.07471764087677002,
+          "max": 0.07471764087677002,
+          "unit": "IR Absorption",
+          "measurement_time_s": 4.8527162075042725
+        },
+        "Raman_Spectrometer": {
+          "mean": 0.9262923002243042,
+          "std": 1.7881393432617188e-07,
+          "min": 0.9262921214103699,
+          "max": 0.9262921214103699,
+          "unit": "Raman Signal",
+          "measurement_time_s": 5.073786735534668
+        },
+        "Mass_Spectrometer": {
+          "mean": 28.423336029052734,
+          "std": 1.9073486328125e-05,
+          "min": 28.423316955566406,
+          "max": 28.423316955566406,
+          "unit": "Mass (amu)",
+          "measurement_time_s": 4.769288063049316
+        },
+        "Photodiode": {
+          "mean": 0.000895717937964946,
+          "std": 1.1059455573558807e-09,
+          "min": 0.0008957190439105034,
+          "max": 0.0008957190439105034,
+          "unit": "Light Intensity",
+          "measurement_time_s": 4.5382466316223145
+        },
+        "Interferometer": {
+          "mean": 1.0,
+          "std": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "unit": "Phase (rad)",
+          "measurement_time_s": 34.040486097335815
+        }
+      },
+      "revolutionary_advantage": {
+        "traditional_samples_required": 8,
+        "our_samples_required": 1,
+        "sample_savings": 7,
+        "zero_backaction": true,
+        "simultaneous_analysis": true
+      }
+    },
+    {
+      "success": true,
+      "image_name": "1585.jpg",
+      "image_shape": [
+        1024,
+        1024,
+        3
+      ],
+      "total_time_s": 294.5877604484558,
+      "n_modalities": 8,
+      "atmospheric_conditions": {
+        "temperature": 310.15,
+        "pressure": 101325,
+        "humidity": 0.8
+      },
+      "detector_statistics": {
+        "Thermometer": {
+          "mean": 310.1499328613281,
+          "std": 6.103515625e-05,
+          "min": 310.1499938964844,
+          "max": 310.1499938964844,
+          "unit": "Temperature (K)",
+          "measurement_time_s": 18.294828414916992
+        },
+        "Barometer": {
+          "mean": 101325.0,
+          "std": 0.0,
+          "min": 101325.0,
+          "max": 101325.0,
+          "unit": "Pressure (Pa)",
+          "measurement_time_s": 16.14847183227539
+        },
+        "Hygrometer": {
+          "mean": 0.800000786781311,
+          "std": 7.748603820800781e-07,
+          "min": 0.800000011920929,
+          "max": 0.800000011920929,
+          "unit": "Humidity (%)",
+          "measurement_time_s": 10.208141088485718
+        },
+        "IR_Spectrometer": {
+          "mean": 0.07471755146980286,
+          "std": 8.940696716308594e-08,
+          "min": 0.07471764087677002,
+          "max": 0.07471764087677002,
+          "unit": "IR Absorption",
+          "measurement_time_s": 4.064957618713379
+        },
+        "Raman_Spectrometer": {
+          "mean": 0.926292359828949,
+          "std": 2.384185791015625e-07,
+          "min": 0.9262921214103699,
+          "max": 0.9262921214103699,
+          "unit": "Raman Signal",
+          "measurement_time_s": 4.171131372451782
+        },
+        "Mass_Spectrometer": {
+          "mean": 28.4233341217041,
+          "std": 1.71661376953125e-05,
+          "min": 28.423316955566406,
+          "max": 28.423316955566406,
+          "unit": "Mass (amu)",
+          "measurement_time_s": 4.282602548599243
+        },
+        "Photodiode": {
+          "mean": 0.0008957181125879288,
+          "std": 9.313225746154785e-10,
+          "min": 0.0008957190439105034,
+          "max": 0.0008957190439105034,
+          "unit": "Light Intensity",
+          "measurement_time_s": 4.401602029800415
+        },
+        "Interferometer": {
+          "mean": 1.0,
+          "std": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "unit": "Phase (rad)",
+          "measurement_time_s": 27.949336528778076
+        }
+      },
+      "revolutionary_advantage": {
+        "traditional_samples_required": 8,
+        "our_samples_required": 1,
+        "sample_savings": 7,
+        "zero_backaction": true,
+        "simultaneous_analysis": true
+      }
+    }
+  ],
+  "detector_types": [
+    "Thermometer",
+    "Barometer",
+    "Hygrometer",
+    "IR_Spectrometer",
+    "Raman_Spectrometer",
+    "Mass_Spectrometer",
+    "Photodiode",
+    "Interferometer"
+  ]
+}

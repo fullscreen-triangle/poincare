@@ -1,0 +1,46 @@
+{
+  "configuration": {
+    "n_detectors": 5,
+    "m_sources": 5,
+    "duration": 2.0,
+    "base_fps": 30,
+    "response_rank": 5,
+    "condition_number": 12.344725380720712
+  },
+  "zoom_levels": {
+    "zoom_1": {
+      "fps": 60,
+      "zoom_factor": 2,
+      "metrics": {
+        "rmse": 0.19822592179044346,
+        "r2": 0.80788502456387,
+        "psnr": 12.10554062240573,
+        "correlation": 0.9037280740133624
+      }
+    },
+    "zoom_2": {
+      "fps": 120,
+      "zoom_factor": 4,
+      "metrics": {
+        "rmse": 0.19235889723348934,
+        "r2": 0.819845986909655,
+        "psnr": 12.415977731920837,
+        "correlation": 0.9099420602439606
+      }
+    },
+    "zoom_3": {
+      "fps": 240,
+      "zoom_factor": 8,
+      "metrics": {
+        "rmse": 0.19037246928809218,
+        "r2": 0.8239159360772733,
+        "psnr": 12.491363867558015,
+        "correlation": 0.9120469371167138
+      }
+    }
+  },
+  "outputs": {
+    "chart": "spectral_zoom_video\\spectral_zoom_explanation.png",
+    "video": "spectral_zoom_video\\video_frames"
+  }
+}

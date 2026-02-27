@@ -1,0 +1,211 @@
+{
+  "experiment_name": "scattering_enhancement",
+  "parameters": {
+    "scatterer_counts": [
+      0,
+      10,
+      25,
+      50,
+      100,
+      200,
+      500
+    ]
+  },
+  "metrics": {
+    "rank_vs_scatterers_correlation": -0.9292215929097009,
+    "psnr_improvement_with_scattering": 72.90161569942208
+  },
+  "data": {
+    "results": [
+      {
+        "image_idx": 0,
+        "n_scatterers": 0,
+        "effective_rank": 32,
+        "mse": 0.0007066755364895205,
+        "psnr": 31.507798812628273,
+        "ssim": 0.6435624254494066,
+        "scattered_entropy": 3.4917594386109783
+      },
+      {
+        "image_idx": 0,
+        "n_scatterers": 10,
+        "effective_rank": 1024,
+        "mse": 1.3376486720975365e-32,
+        "psnr": 100.0,
+        "ssim": 0.9999999999999999,
+        "scattered_entropy": 4.250731912175563
+      },
+      {
+        "image_idx": 0,
+        "n_scatterers": 25,
+        "effective_rank": 1024,
+        "mse": 1.223693402828443e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.282529127668545
+      },
+      {
+        "image_idx": 0,
+        "n_scatterers": 50,
+        "effective_rank": 1024,
+        "mse": 3.88210199724197e-32,
+        "psnr": 100.0,
+        "ssim": 0.9999999999999999,
+        "scattered_entropy": 4.306189032194554
+      },
+      {
+        "image_idx": 0,
+        "n_scatterers": 100,
+        "effective_rank": 1024,
+        "mse": 4.031544651177121e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.287448967073802
+      },
+      {
+        "image_idx": 0,
+        "n_scatterers": 200,
+        "effective_rank": 1024,
+        "mse": 5.837541698749042e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.3563829856792005
+      },
+      {
+        "image_idx": 0,
+        "n_scatterers": 500,
+        "effective_rank": 1018,
+        "mse": 4.540806669565112e-31,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.309446231160665
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 0,
+        "effective_rank": 32,
+        "mse": 0.0026804409994862647,
+        "psnr": 25.717937316019448,
+        "ssim": 0.4865888214514582,
+        "scattered_entropy": 4.5644385736827315
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 10,
+        "effective_rank": 1024,
+        "mse": 4.854864696482592e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.8350455003901045
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 25,
+        "effective_rank": 1024,
+        "mse": 3.48377014279859e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.889727782951098
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 50,
+        "effective_rank": 1024,
+        "mse": 5.235923524694302e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.913457593494952
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 100,
+        "effective_rank": 1024,
+        "mse": 1.3940574611384913e-31,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 4.979290654701157
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 200,
+        "effective_rank": 1024,
+        "mse": 1.6370640654719226e-31,
+        "psnr": 100.0,
+        "ssim": 1.0000000000000002,
+        "scattered_entropy": 5.01908051419477
+      },
+      {
+        "image_idx": 1,
+        "n_scatterers": 500,
+        "effective_rank": 1018,
+        "mse": 1.5792356598214706e-30,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 5.061845829259916
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 0,
+        "effective_rank": 32,
+        "mse": 0.003917944788165458,
+        "psnr": 24.069416773086047,
+        "ssim": 0.3685875090037866,
+        "scattered_entropy": 4.385951533591378
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 10,
+        "effective_rank": 1024,
+        "mse": 9.228169911988397e-32,
+        "psnr": 100.0,
+        "ssim": 1.0000000000000002,
+        "scattered_entropy": 5.847066544727198
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 25,
+        "effective_rank": 1024,
+        "mse": 8.7362343423769e-32,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 5.853029258521058
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 50,
+        "effective_rank": 1024,
+        "mse": 1.166335574749932e-31,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 5.893806850515759
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 100,
+        "effective_rank": 1024,
+        "mse": 1.5891835210069621e-31,
+        "psnr": 100.0,
+        "ssim": 0.9999999999999998,
+        "scattered_entropy": 5.917085755645898
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 200,
+        "effective_rank": 1024,
+        "mse": 3.4884347100941643e-31,
+        "psnr": 100.0,
+        "ssim": 0.9999999999999999,
+        "scattered_entropy": 5.91434303937759
+      },
+      {
+        "image_idx": 2,
+        "n_scatterers": 500,
+        "effective_rank": 1018,
+        "mse": 5.727706535710213e-30,
+        "psnr": 100.0,
+        "ssim": 1.0,
+        "scattered_entropy": 5.886811219174792
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-15T01:14:25.370182",
+    "data_root": "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\public",
+    "output_dir": "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results",
+    "max_samples": 10
+  },
+  "dataset": {
+    "n_images": 10,
+    "total_nuclei": 858,
+    "nuclei_per_image": 85.8,
+    "area_mean": 756.4184149184149,
+    "area_std": 354.2712977857274
+  },
+  "partition": {
+    "n_nuclei": 858,
+    "chi2": 3849.4235139860148,
+    "p_value": 0.0,
+    "validated": false,
+    "reason": "Deviates from C(n) = 2n\u00b2",
+    "entropy": 1.7954791066844533,
+    "normalized_entropy": 0.5984930355614845,
+    "n_occupied_states": 8,
+    "observed_distribution": {
+      "2": 721,
+      "3": 72,
+      "1": 64,
+      "4": 1
+    },
+    "expected_distribution": {
+      "1": 28.599999999999998,
+      "2": 114.39999999999999,
+      "3": 257.4,
+      "4": 457.59999999999997
+    }
+  },
+  "s_entropy": {
+    "n_timepoints": 10,
+    "mean_S_total": 1.0,
+    "std_S_total": 9.930136612989092e-17,
+    "cv": 9.930136612989092e-17,
+    "validated": true,
+    "reason": "S-entropy conserved"
+  },
+  "exclusion": {
+    "n_modalities": 7,
+    "N_0": 1e+60,
+    "N_final": 4.8147385921162365e+53,
+    "reduction_factor": 2076955.9569390183,
+    "log_reduction": 6.31742728716526,
+    "validated": false,
+    "reason": "Insufficient exclusion",
+    "resolution_enhancement": 65.48595294974416
+  },
+  "localization": {
+    "n_modalities": 6,
+    "n_reactions_detected": 50,
+    "enhancement_factor": 14.868640145303395,
+    "single_resolution": 14.666666666666666,
+    "multimodal_resolution": 0.9864161431937992,
+    "validated": true
+  },
+  "quintupartite": {
+    "n_modalities": 5,
+    "unique_determination": true,
+    "N_0": 1e+60,
+    "N_final": 1.0000000000000003e-09,
+    "log_reduction": 69.0,
+    "gps_validated": true,
+    "gps_error": 0.0,
+    "causal_consistent": false,
+    "validated": true,
+    "reason": "Multi-modal uniqueness achieved"
+  },
+  "dual_membrane": {
+    "mean_anti_correlation": -1.0,
+    "expected_correlation": -1.0,
+    "mean_conjugate_sum": 0.0,
+    "platform_independent": true,
+    "max_platform_difference": 0.0,
+    "cascade_enhancement": 97.36793726402817,
+    "zero_backaction": true,
+    "membrane_thickness_consistent": false,
+    "validated": true,
+    "reason": "Conjugate relationship S_k^back = -S_k^front validated"
+  },
+  "oxygen_dynamics": {
+    "distribution_valid": true,
+    "resolution_valid": false,
+    "spatial_resolution_nm": 506.4301831012458,
+    "temporal_resolution_fs": 10.0,
+    "snr": 2.0368852459016393,
+    "capacitance_pF": 0.04450505816781445,
+    "electric_field_Vm": 14117912.807770502,
+    "wavelength_um": 3.0,
+    "validated": true,
+    "reason": "Ternary dynamics validated"
+  },
+  "electrostatic_chambers": {
+    "num_chamber_events": 498,
+    "mean_chamber_size_nm": 10.393574297188755,
+    "rate_enhancement": 1000.0,
+    "spectrometry_validated": false,
+    "absorption_intensity": 0.9984858532272325,
+    "emission_intensity": 0.00028183023872679046,
+    "validated": true,
+    "reason": "Electrostatic chambers detected; Distribution deviates from prediction"
+  },
+  "panels": [
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_1_partition_coordinates.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_2_s_entropy.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_3_sequential_exclusion.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_4_reaction_localization.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_5_quintupartite.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_6_dual_membrane.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_7_oxygen_dynamics.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_8_electrostatic_chambers.png",
+    "c:\\Users\\kundai\\Documents\\computer-vision\\helicopter\\turbine\\validation\\results\\panels\\panel_extended_summary.png"
+  ]
+}

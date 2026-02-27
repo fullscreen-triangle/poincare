@@ -1,0 +1,287 @@
+{
+  "experiment_name": "aberration_invariance",
+  "parameters": {
+    "aberration_configs": [
+      "Perfect",
+      "Defocus",
+      "Astigmatism",
+      "Coma",
+      "Spherical",
+      "Mixed_mild",
+      "Mixed_strong",
+      "Extreme"
+    ]
+  },
+  "metrics": {
+    "mean_improvement": -16.746324875978775,
+    "improvement_vs_severity_correlation": 0.9811647032977612
+  },
+  "data": {
+    "results": [
+      {
+        "image_idx": 0,
+        "aberration": "Perfect",
+        "aberration_strength": 0.0,
+        "psf_spread": 3.3573182924490523,
+        "mse_aberrated": 3.918685307144366e-05,
+        "mse_reconstructed": 0.0035331165408917058,
+        "psnr_aberrated": 44.0685850318946,
+        "psnr_reconstructed": 24.51842024705136,
+        "psnr_improvement": -19.55016478484324
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Defocus",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.387250516136645,
+        "mse_aberrated": 5.900763961019868e-05,
+        "mse_reconstructed": 0.0035292766992070282,
+        "psnr_aberrated": 42.290910214162416,
+        "psnr_reconstructed": 24.523142788307393,
+        "psnr_improvement": -17.767767425855023
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Astigmatism",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.3648263344579856,
+        "mse_aberrated": 4.526253169461156e-05,
+        "mse_reconstructed": 0.0035319268680705047,
+        "psnr_aberrated": 43.44260198564661,
+        "psnr_reconstructed": 24.519882851884386,
+        "psnr_improvement": -18.922719133762225
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Coma",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.389865190598453,
+        "mse_aberrated": 5.069910038769079e-05,
+        "mse_reconstructed": 0.0035309433580592636,
+        "psnr_aberrated": 42.949988901726215,
+        "psnr_reconstructed": 24.521092368547635,
+        "psnr_improvement": -18.42889653317858
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Spherical",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.4390585145538695,
+        "mse_aberrated": 5.893088296086509e-05,
+        "mse_reconstructed": 0.0035292235643881106,
+        "psnr_aberrated": 42.29656314870923,
+        "psnr_reconstructed": 24.52320817374945,
+        "psnr_improvement": -17.773354974959783
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Mixed_mild",
+        "aberration_strength": 1.2,
+        "psf_spread": 3.4315354579780317,
+        "mse_aberrated": 6.216086332362021e-05,
+        "mse_reconstructed": 0.003528696509623762,
+        "psnr_aberrated": 42.064822637874066,
+        "psnr_reconstructed": 24.523856798180887,
+        "psnr_improvement": -17.54096583969318
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Mixed_strong",
+        "aberration_strength": 2.0,
+        "psf_spread": 3.559377851622256,
+        "mse_aberrated": 0.00010969190859601585,
+        "mse_reconstructed": 0.0035199176911962773,
+        "psnr_aberrated": 39.598250109765445,
+        "psnr_reconstructed": 24.534674794896937,
+        "psnr_improvement": -15.063575314868508
+      },
+      {
+        "image_idx": 0,
+        "aberration": "Extreme",
+        "aberration_strength": 4.0,
+        "psf_spread": 4.102048923321197,
+        "mse_aberrated": 0.00035162733618103285,
+        "mse_reconstructed": 0.003467846982485644,
+        "psnr_aberrated": 34.539172458930366,
+        "psnr_reconstructed": 24.599400613391023,
+        "psnr_improvement": -9.939771845539344
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Perfect",
+        "aberration_strength": 0.0,
+        "psf_spread": 3.3573182924490523,
+        "mse_aberrated": 0.00014204820962118053,
+        "mse_reconstructed": 0.013304068417794346,
+        "psnr_aberrated": 38.47563930026661,
+        "psnr_reconstructed": 18.76015527106083,
+        "psnr_improvement": -19.715484029205776
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Defocus",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.387250516136645,
+        "mse_aberrated": 0.00021372126685335907,
+        "mse_reconstructed": 0.013289789835137702,
+        "psnr_aberrated": 36.701520569532285,
+        "psnr_reconstructed": 18.764818836721325,
+        "psnr_improvement": -17.93670173281096
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Astigmatism",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.3648263344579856,
+        "mse_aberrated": 0.0001639215600529978,
+        "mse_reconstructed": 0.013299668692067484,
+        "psnr_aberrated": 37.85363656435766,
+        "psnr_reconstructed": 18.76159174338818,
+        "psnr_improvement": -19.092044820969477
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Coma",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.389865190598453,
+        "mse_aberrated": 0.00018392600568137274,
+        "mse_reconstructed": 0.013295893025490155,
+        "psnr_aberrated": 37.35356624493697,
+        "psnr_reconstructed": 18.762824844742564,
+        "psnr_improvement": -18.590741400194407
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Spherical",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.4390585145538695,
+        "mse_aberrated": 0.00021340283347088255,
+        "mse_reconstructed": 0.013289794764185035,
+        "psnr_aberrated": 36.70799614989052,
+        "psnr_reconstructed": 18.76481722596775,
+        "psnr_improvement": -17.94317892392277
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Mixed_mild",
+        "aberration_strength": 1.2,
+        "psf_spread": 3.4315354579780317,
+        "mse_aberrated": 0.00022514995912321895,
+        "mse_reconstructed": 0.013287292796704216,
+        "psnr_aberrated": 36.47527934657591,
+        "psnr_reconstructed": 18.76563491576417,
+        "psnr_improvement": -17.70964443081174
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Mixed_strong",
+        "aberration_strength": 2.0,
+        "psf_spread": 3.559377851622256,
+        "mse_aberrated": 0.00039706971205119427,
+        "mse_reconstructed": 0.013253816442617587,
+        "psnr_aberrated": 34.01133129702541,
+        "psnr_reconstructed": 18.776590451437645,
+        "psnr_improvement": -15.234740845587762
+      },
+      {
+        "image_idx": 1,
+        "aberration": "Extreme",
+        "aberration_strength": 4.0,
+        "psf_spread": 4.102048923321197,
+        "mse_aberrated": 0.0012735111187748191,
+        "mse_reconstructed": 0.013055826742030657,
+        "psnr_aberrated": 28.949972248420725,
+        "psnr_reconstructed": 18.841956185510963,
+        "psnr_improvement": -10.108016062909762
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Perfect",
+        "aberration_strength": 0.0,
+        "psf_spread": 3.3573182924490523,
+        "mse_aberrated": 0.00026968949570327046,
+        "mse_reconstructed": 0.02152315524326779,
+        "psnr_aberrated": 35.691358077770545,
+        "psnr_reconstructed": 16.670940597846105,
+        "psnr_improvement": -19.02041747992444
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Defocus",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.387250516136645,
+        "mse_aberrated": 0.0004127051548153569,
+        "mse_reconstructed": 0.021495911454522294,
+        "psnr_aberrated": 33.84360001384798,
+        "psnr_reconstructed": 16.67644133486962,
+        "psnr_improvement": -17.167158678978364
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Astigmatism",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.3648263344579856,
+        "mse_aberrated": 0.0003137842841905782,
+        "mse_reconstructed": 0.021514546635092554,
+        "psnr_aberrated": 35.033686733322966,
+        "psnr_reconstructed": 16.672677991292638,
+        "psnr_improvement": -18.36100874203033
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Coma",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.389865190598453,
+        "mse_aberrated": 0.00034774224740312094,
+        "mse_reconstructed": 0.021508462731280063,
+        "psnr_aberrated": 34.58742418538405,
+        "psnr_reconstructed": 16.67390626699833,
+        "psnr_improvement": -17.913517918385722
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Spherical",
+        "aberration_strength": 0.5,
+        "psf_spread": 3.4390585145538695,
+        "mse_aberrated": 0.00040598508756159506,
+        "mse_reconstructed": 0.02149641104741658,
+        "psnr_aberrated": 33.91489811441562,
+        "psnr_reconstructed": 16.676340400366172,
+        "psnr_improvement": -17.23855771404945
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Mixed_mild",
+        "aberration_strength": 1.2,
+        "psf_spread": 3.4315354579780317,
+        "mse_aberrated": 0.00042976413513341413,
+        "mse_reconstructed": 0.021492880734278023,
+        "psnr_aberrated": 33.667697292133305,
+        "psnr_reconstructed": 16.67705369218757,
+        "psnr_improvement": -16.990643599945734
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Mixed_strong",
+        "aberration_strength": 2.0,
+        "psf_spread": 3.559377851622256,
+        "mse_aberrated": 0.0007607215940270535,
+        "mse_reconstructed": 0.02143228139869905,
+        "psnr_aberrated": 31.187741984920592,
+        "psnr_reconstructed": 16.689315951945098,
+        "psnr_improvement": -14.498426032975495
+      },
+      {
+        "image_idx": 2,
+        "aberration": "Extreme",
+        "aberration_strength": 4.0,
+        "psf_spread": 4.102048923321197,
+        "mse_aberrated": 0.0024166417632270464,
+        "mse_reconstructed": 0.02106891486257508,
+        "psnr_aberrated": 26.16787705549595,
+        "psnr_reconstructed": 16.76357829740738,
+        "psnr_improvement": -9.404298758088569
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "experiment_name": "computational_complexity",
+  "parameters": {
+    "sizes": [
+      16,
+      32,
+      48,
+      64,
+      96,
+      128
+    ]
+  },
+  "metrics": {
+    "complexity_exponent": 0.9947801787960242,
+    "scaling_law": "O(n^0.99)"
+  },
+  "data": {
+    "results": [
+      {
+        "size": 16,
+        "n_pixels": 256,
+        "matrix_elements": 65536,
+        "time_build": 0.00020885467529296875,
+        "time_svd": 0.0001728534698486328,
+        "time_reconstruction": 0.00012350082397460938,
+        "total_time": 0.0005052089691162109
+      },
+      {
+        "size": 32,
+        "n_pixels": 1024,
+        "matrix_elements": 1048576,
+        "time_build": 0.00029850006103515625,
+        "time_svd": 0.0003063678741455078,
+        "time_reconstruction": 0.00024008750915527344,
+        "total_time": 0.0008449554443359375
+      },
+      {
+        "size": 48,
+        "n_pixels": 2304,
+        "matrix_elements": 5308416,
+        "time_build": 0.00031304359436035156,
+        "time_svd": 0.0014040470123291016,
+        "time_reconstruction": 0.0005943775177001953,
+        "total_time": 0.0023114681243896484
+      },
+      {
+        "size": 64,
+        "n_pixels": 4096,
+        "matrix_elements": 16777216,
+        "time_build": 0.0004374980926513672,
+        "time_svd": 0.003017902374267578,
+        "time_reconstruction": 0.0008535385131835938,
+        "total_time": 0.004308938980102539
+      },
+      {
+        "size": 96,
+        "n_pixels": 9216,
+        "matrix_elements": 84934656,
+        "time_build": 0.0009350776672363281,
+        "time_svd": 0.00620722770690918,
+        "time_reconstruction": 0.0026323795318603516,
+        "total_time": 0.00977468490600586
+      },
+      {
+        "size": 128,
+        "n_pixels": 16384,
+        "matrix_elements": 268435456,
+        "time_build": 0.0013794898986816406,
+        "time_svd": 0.019062042236328125,
+        "time_reconstruction": 0.012415170669555664,
+        "total_time": 0.03285670280456543
+      }
+    ]
+  }
+}

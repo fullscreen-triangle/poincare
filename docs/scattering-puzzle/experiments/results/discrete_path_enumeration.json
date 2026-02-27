@@ -1,0 +1,201 @@
+{
+  "experiment_name": "discrete_path_enumeration",
+  "parameters": {
+    "n_steps": 10,
+    "delta_thetas": [
+      0.5,
+      0.25,
+      0.1,
+      0.05,
+      0.025
+    ]
+  },
+  "metrics": {
+    "mean_correlation": 0.8219070924656733,
+    "convergence_rate": -1.1024123702754125e-05
+  },
+  "data": {
+    "results": [
+      {
+        "image_idx": 0,
+        "delta_theta": 0.5,
+        "n_directions": 12,
+        "mse_vs_continuous": 0.0077958315325802295,
+        "correlation": 0.8232267219863705,
+        "n_steps": 10,
+        "total_path_count": 3372,
+        "mean_paths_per_pixel": 0.8232421875,
+        "max_paths_per_pixel": 108.0,
+        "field_entropy": 6.829392893457504
+      },
+      {
+        "image_idx": 0,
+        "delta_theta": 0.25,
+        "n_directions": 25,
+        "mse_vs_continuous": 0.007853088292504164,
+        "correlation": 0.8180844760850662,
+        "n_steps": 10,
+        "total_path_count": 7150,
+        "mean_paths_per_pixel": 1.74560546875,
+        "max_paths_per_pixel": 225.0,
+        "field_entropy": 6.812376301800972
+      },
+      {
+        "image_idx": 0,
+        "delta_theta": 0.1,
+        "n_directions": 62,
+        "mse_vs_continuous": 0.007862499715852426,
+        "correlation": 0.8211982764166725,
+        "n_steps": 10,
+        "total_path_count": 17174,
+        "mean_paths_per_pixel": 4.19287109375,
+        "max_paths_per_pixel": 558.0,
+        "field_entropy": 6.817298468422661
+      },
+      {
+        "image_idx": 0,
+        "delta_theta": 0.05,
+        "n_directions": 125,
+        "mse_vs_continuous": 0.007779869247762063,
+        "correlation": 0.8235927911774519,
+        "n_steps": 10,
+        "total_path_count": 34875,
+        "mean_paths_per_pixel": 8.514404296875,
+        "max_paths_per_pixel": 1125.0,
+        "field_entropy": 6.832157215344504
+      },
+      {
+        "image_idx": 0,
+        "delta_theta": 0.025,
+        "n_directions": 251,
+        "mse_vs_continuous": 0.007787841103061589,
+        "correlation": 0.8234331966628041,
+        "n_steps": 10,
+        "total_path_count": 70029,
+        "mean_paths_per_pixel": 17.096923828125,
+        "max_paths_per_pixel": 2259.0,
+        "field_entropy": 6.830801741831092
+      },
+      {
+        "image_idx": 1,
+        "delta_theta": 0.5,
+        "n_directions": 12,
+        "mse_vs_continuous": 0.0077958315325802295,
+        "correlation": 0.8232267219863705,
+        "n_steps": 10,
+        "total_path_count": 3372,
+        "mean_paths_per_pixel": 0.8232421875,
+        "max_paths_per_pixel": 108.0,
+        "field_entropy": 6.829392893457504
+      },
+      {
+        "image_idx": 1,
+        "delta_theta": 0.25,
+        "n_directions": 25,
+        "mse_vs_continuous": 0.007853088292504164,
+        "correlation": 0.8180844760850662,
+        "n_steps": 10,
+        "total_path_count": 7150,
+        "mean_paths_per_pixel": 1.74560546875,
+        "max_paths_per_pixel": 225.0,
+        "field_entropy": 6.812376301800972
+      },
+      {
+        "image_idx": 1,
+        "delta_theta": 0.1,
+        "n_directions": 62,
+        "mse_vs_continuous": 0.007862499715852426,
+        "correlation": 0.8211982764166725,
+        "n_steps": 10,
+        "total_path_count": 17174,
+        "mean_paths_per_pixel": 4.19287109375,
+        "max_paths_per_pixel": 558.0,
+        "field_entropy": 6.817298468422661
+      },
+      {
+        "image_idx": 1,
+        "delta_theta": 0.05,
+        "n_directions": 125,
+        "mse_vs_continuous": 0.007779869247762063,
+        "correlation": 0.8235927911774519,
+        "n_steps": 10,
+        "total_path_count": 34875,
+        "mean_paths_per_pixel": 8.514404296875,
+        "max_paths_per_pixel": 1125.0,
+        "field_entropy": 6.832157215344504
+      },
+      {
+        "image_idx": 1,
+        "delta_theta": 0.025,
+        "n_directions": 251,
+        "mse_vs_continuous": 0.007787841103061589,
+        "correlation": 0.8234331966628041,
+        "n_steps": 10,
+        "total_path_count": 70029,
+        "mean_paths_per_pixel": 17.096923828125,
+        "max_paths_per_pixel": 2259.0,
+        "field_entropy": 6.830801741831092
+      },
+      {
+        "image_idx": 2,
+        "delta_theta": 0.5,
+        "n_directions": 12,
+        "mse_vs_continuous": 0.0077958315325802295,
+        "correlation": 0.8232267219863705,
+        "n_steps": 10,
+        "total_path_count": 3372,
+        "mean_paths_per_pixel": 0.8232421875,
+        "max_paths_per_pixel": 108.0,
+        "field_entropy": 6.829392893457504
+      },
+      {
+        "image_idx": 2,
+        "delta_theta": 0.25,
+        "n_directions": 25,
+        "mse_vs_continuous": 0.007853088292504164,
+        "correlation": 0.8180844760850662,
+        "n_steps": 10,
+        "total_path_count": 7150,
+        "mean_paths_per_pixel": 1.74560546875,
+        "max_paths_per_pixel": 225.0,
+        "field_entropy": 6.812376301800972
+      },
+      {
+        "image_idx": 2,
+        "delta_theta": 0.1,
+        "n_directions": 62,
+        "mse_vs_continuous": 0.007862499715852426,
+        "correlation": 0.8211982764166725,
+        "n_steps": 10,
+        "total_path_count": 17174,
+        "mean_paths_per_pixel": 4.19287109375,
+        "max_paths_per_pixel": 558.0,
+        "field_entropy": 6.817298468422661
+      },
+      {
+        "image_idx": 2,
+        "delta_theta": 0.05,
+        "n_directions": 125,
+        "mse_vs_continuous": 0.007779869247762063,
+        "correlation": 0.8235927911774519,
+        "n_steps": 10,
+        "total_path_count": 34875,
+        "mean_paths_per_pixel": 8.514404296875,
+        "max_paths_per_pixel": 1125.0,
+        "field_entropy": 6.832157215344504
+      },
+      {
+        "image_idx": 2,
+        "delta_theta": 0.025,
+        "n_directions": 251,
+        "mse_vs_continuous": 0.007787841103061589,
+        "correlation": 0.8234331966628041,
+        "n_steps": 10,
+        "total_path_count": 70029,
+        "mean_paths_per_pixel": 17.096923828125,
+        "max_paths_per_pixel": 2259.0,
+        "field_entropy": 6.830801741831092
+      }
+    ]
+  }
+}
