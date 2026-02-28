@@ -1,5 +1,10 @@
 # Poincaré Computing
 
+
+<div align="center">
+  <img src="assets/img/PSM_V82_D416_Henri_Poincare.png" alt="Borgia Logo" width="200"/>
+</div>
+
 > **Backward Trajectory Completion in Bounded Phase Space**
 
 A fundamental reconceptualization of computation: instead of simulating forward from initial conditions, we navigate backward from observed final states to complete trajectories in pre-existing partition structure.
