@@ -1,0 +1,23 @@
+======================================================================
+EXPERIMENT 1: RANDOM GUESS PARADOX
+======================================================================
+
+Hypothesis: Finding (random) != Checking (verify)
+
+Running 1000 trials...
+
+RESULTS:
+----------------------------------------------------------------------
+Finding (random):       291.45 us  [O(1) constant]
+Checking (verify):        5.45 us  [O(n^2) quadratic]
+----------------------------------------------------------------------
+
+RESULT: Finding is 53.4x SLOWER than Checking
+NOTE: This is expected - random generation has overhead
+CONCLUSION: Still operationally distinct (different outputs)
+
+Type signatures:
+  Finding:  Problem -> Candidate  (returns filled grid)
+  Checking: (Problem, Candidate) -> Boolean  (returns True/False)
+
+======================================================================

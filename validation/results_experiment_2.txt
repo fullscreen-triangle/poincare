@@ -1,0 +1,54 @@
+======================================================================
+EXPERIMENT 2: TYPE THEORY VALIDATION
+======================================================================
+
+Hypothesis: Finding, Checking, Recognizing have distinct type signatures
+This proves they are THREE DIFFERENT OPERATIONS
+
+OPERATION SIGNATURES:
+----------------------------------------------------------------------
+1. Finding:
+   Type:   Problem -> Candidate
+   Input:  List[(List[int], int)]
+   Output: Callable[[List[int]], int]
+
+   Result: <built-in function sum>
+   Python type: builtin_function_or_method
+
+2. Checking:
+   Type:   (Problem, Candidate) -> Boolean
+   Input:  List[(List[int], int)], Callable
+   Output: bool
+
+   Result: True
+   Python type: bool
+
+3. Recognizing:
+   Type:   (Problem, Candidate) -> Epistemic
+   Input:  List[(List[int], int)], Callable
+   Output: float  (confidence in [0,1])
+
+   Result: 1.0
+   Python type: float
+----------------------------------------------------------------------
+
+TYPE COMPARISON:
+----------------------------------------------------------------------
+Finding output:     builtin_function_or_method (Callable)
+Checking output:    bool            (Boolean)
+Recognizing output: float           (Epistemic/float)
+
+TYPE INCOMPATIBILITY TEST:
+----------------------------------------------------------------------
+
+
+STDERR:
+Traceback (most recent call last):
+  File "C:\Users\kundai\Documents\foundry\poincare\validation\experiment_2_type_theory.py", line 281, in <module>
+    demonstrate_type_distinction()
+  File "C:\Users\kundai\Documents\foundry\poincare\validation\experiment_2_type_theory.py", line 190, in demonstrate_type_distinction
+    print("\u26a0 Finding output used as Boolean: allowed but meaningless")
+  File "C:\Users\kundai\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u26a0' in position 0: character maps to <undefined>

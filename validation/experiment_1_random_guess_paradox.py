@@ -133,7 +133,7 @@ def run_experiment(num_trials: int = 1000):
     print("=" * 70)
     print()
     print("Hypothesis: Finding (random guess) is faster than Checking (verify)")
-    print("This proves Finding ≠ Checking operationally")
+    print("This proves Finding != Checking operationally")
     print()
 
     # Example Sudoku puzzle (partially filled)
@@ -190,8 +190,8 @@ def run_experiment(num_trials: int = 1000):
 
     print("SPEEDUP ANALYSIS:")
     print("-" * 70)
-    print(f"Finding vs Checking:    {speedup_finding_vs_checking:>6.1f}× faster")
-    print(f"Finding vs Recognizing: {speedup_finding_vs_recognizing:>6.1f}× (similar speed)")
+    print(f"Finding vs Checking:    {speedup_finding_vs_checking:>6.1f}x faster")
+    print(f"Finding vs Recognizing: {speedup_finding_vs_recognizing:>6.1f}x (similar speed)")
     print("-" * 70)
     print()
 

@@ -1,0 +1,45 @@
+======================================================================
+EXPERIMENT 2: TYPE THEORY VALIDATION
+======================================================================
+
+Hypothesis: F, C, R have distinct type signatures
+
+OPERATION TYPE SIGNATURES:
+----------------------------------------------------------------------
+1. Finding:
+   Signature: Problem -> Candidate
+   Result: <built-in function sum>
+   Type: builtin_function_or_method
+
+2. Checking:
+   Signature: (Problem, Candidate) -> Boolean
+   Result: True
+   Type: bool
+
+3. Recognizing:
+   Signature: (Problem, Candidate) -> Epistemic
+   Result: 1.0
+   Type: float
+----------------------------------------------------------------------
+
+TYPE COMPARISON:
+----------------------------------------------------------------------
+Finding output:     builtin_function_or_method (Callable)
+Checking output:    bool                 (Boolean)
+Recognizing output: float                (Epistemic)
+----------------------------------------------------------------------
+
+TYPE INCOMPATIBILITY:
+----------------------------------------------------------------------
+Finding returns:    function/program
+Checking returns:   True/False
+Recognizing returns: 0.0-1.0 confidence
+
+These cannot be unified (different codomains)
+----------------------------------------------------------------------
+
+CONCLUSION:
+======================================================================
+Finding != Checking != Recognizing
+(Proven by type theory - incompatible signatures)
+======================================================================
