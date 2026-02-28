@@ -6,6 +6,8 @@ A fundamental reconceptualization of computation: instead of simulating forward 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+**[📱 Visit the interactive site](https://fullscreen-triangle.github.io/poincare/)** | **[📄 Read the paper](publication/poincare-trajectory-computing.pdf)** | **[💻 View examples](examples/)**
+
 ---
 
 ## The Paradigm Shift

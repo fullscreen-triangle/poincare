@@ -1,0 +1,25 @@
+title: Poincaré Computing
+description: Program Synthesis via Backward Trajectory Completion in S-Entropy Space
+author: Poincaré Computing Project
+email: contact@poincare-computing.org
+
+# Build settings
+theme: null
+plugins: []
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# SEO
+lang: en
+locale: en_US
+
+# Social
+github_username: fullscreen-triangle
+repository: fullscreen-triangle/poincare
+
+# Google Analytics (optional - replace with your ID)
+# google_analytics: UA-XXXXXXXXX-X
