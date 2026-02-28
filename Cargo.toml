@@ -45,10 +45,6 @@ default = ["cli"]
 cli = ["clap", "csv"]
 bench = []
 
-[[bench]]
-name = "synthesis_bench"
-harness = false
-
 [profile.release]
 lto = true
 codegen-units = 1
