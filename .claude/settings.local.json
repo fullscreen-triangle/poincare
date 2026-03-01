@@ -5,7 +5,8 @@
       "Bash(cargo init:*)",
       "Bash(tee:*)",
       "Bash(iconv:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(pdflatex:*)"
     ]
   }
 }
