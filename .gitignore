@@ -36,6 +36,94 @@ htmlcov/
 *.cover
 *.log
 
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+.next
+out
+next-env.d.ts
+
+# Production
+/build
+dist
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Turbo
+.turbo
+
+# Sentry
+.sentryclirc
+
+# Storybook
+storybook-static
+
+
 # Virtual environments
 venv/
 env/
@@ -118,3 +206,105 @@ temp/
 *.tmp
 *.bak
 *.orig
+
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json  # optional, je nach Team-Präferenz
+yarn.lock          # optional, je nach Team-Präferenz
+.pnpm-debug.log*
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# IDEs und Editoren
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build-Outputs
+dist/
+build/
+out/
+target/
+*.min.js
+*.min.css
+
+# Logs
+logs/
+*.log
+log/
+
+# Datenbanken
+*.sqlite
+*.sqlite3
+*.db
+
+# Umgebungsvariablen
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Komprimierte Dateien
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporäre Dateien
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Test-Coverage
+coverage/
+.nyc_output/
+.coverage
+htmlcov/
+*.cover
+
+# OS-spezifisch
+Thumbs.db
+Desktop.ini
